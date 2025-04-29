@@ -9,10 +9,11 @@ Poniższa tabela ilustruje, jak zmieniłaby się liczba punktów:
 
 | 1. mecz | 2. mecz | Punkty A | Punkty B | Dwumecz | Nowe punkty A | Nowe punkty B |
 |:-------:|:-------:|:--------:|:--------:|:-------:|:-------------:|:-------------:|
-|  3–0    |   0–2   |    3     |    3     |   3–2   |       3       |       0       |
-|  1–0    |   0–1   |    3     |    3     |   1–1   |       1       |       1       |
-|  1–1    |   0–2   |    1     |    4     |   1–3   |       0       |       3       |
-|  3–1    |   2–0   |    6     |    0     |   5–1   |       3       |       0       |
+|  2–0    |   1–3   |    3     |    3     |   3–3   |       1       |       1       |
+|  0–0    |   0–1   |    1     |    4     |   0–1   |       0       |       3       |
+|  1–3    |   1–1   |    1     |    4     |   2–4   |       0       |       3       |
+|  2–0    |   0–1   |    3     |    3     |   2–1   |       3       |       0       |
+|  1-3    |   0-2   |    0     |    6     |   1-5   |       0       |       3       |
 |  0–0    |   2–2   |    2     |    2     |   2–2   |       1       |       1       |
 
 ## Wymagane pliki wejściowe
@@ -60,7 +61,7 @@ W wyniku powstaje plik `table.csv`, który zawiera następujące dane:
 nazwa_drużyny,liczba_punktów,bramki_zdobyte,bramki_stracone,różnica_bramek
 ```
 
-Tabela jest posortowane według punktów, różnicy bramek i bramek strzelonych:
+Tabela jest posortowana według punktów, różnicy bramek i bramek strzelonych:
 
 ```
 Poznaniak Poznań,4,7,5,2
